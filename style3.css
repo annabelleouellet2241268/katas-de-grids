@@ -57,9 +57,10 @@ body {
         grid-gap: 20px;
         grid-template-columns: 120px auto 120px;
         grid-template-areas:
-            "header  header  header"
-            "sidebar content sidebar2"
-            "footer  footer  footer";
+            "header  header"
+            "sidebar sidebar2"
+            "content content"
+            "footer  footer";
 
         /* CENTRAGE */
         max-width: 1000px;
